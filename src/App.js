@@ -1,10 +1,12 @@
 import "./App.css";
+import Recipie from "./components/Recipie";
+import data from "./data.json";
 
 const App = () => {
   return (
-    <div>
-      <h2>App</h2>
-    </div>
+    <>
+      <Recipie data={data} />
+    </>
   );
 };
 
